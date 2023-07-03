@@ -2,7 +2,7 @@
 
 # Mythos - Winter CMS
 
-Theme for **[Winter CMS](https://wintercms.com/)**. Based on [Identity-Theme](https://github.com/SaifurRahmanMohsin/Identity-Theme). 
+Theme for **[Winter CMS](https://wintercms.com/)**.
 
 ## Installation
 
@@ -18,9 +18,9 @@ mv Mythos-wn-master mythos && cd $_
 ## Sources and Credits
 
 - [Identity-Theme](https://github.com/SaifurRahmanMohsin/Identity-Theme) by Saifur Rahman Mohsin
+- [HTML5 UP](https://html5up.net/uploads/demos/identity)
 - [Font Awesome](https://fontawesome.com) by Dave Gandy
 - [Respond.js](https://j.mp/respondjs) by Scott Jehl
 - [HTML5 Shiv](https://github.com/aFarkas/html5shiv) by afarkas, jdalton, jon_neal and rem
-- [HTML5 UP](https://html5up.net/uploads/demos/identity)
 - [Beautiful shot of high white hilltops and mountains covered in fog](https://www.freepik.com/free-photo/beautiful-shot-high-white-hilltops-mountains-covered-fog_7629796.htm) by wirestock
   
