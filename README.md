@@ -1,8 +1,8 @@
 ![Mythos Winter CMS](https://raw.githubusercontent.com/JanrikV/Mythos-wn/master/assets/images/mythos.png?token=GHSAT0AAAAAACD663HRR7XXLSKP6QIZCTEEZFCX53Q)
 
-# Mythos
+# Mythos - Winter CMS
 
-Theme for Winter CMS. Based on [Identity-Theme](https://github.com/SaifurRahmanMohsin/Identity-Theme). 
+Theme for **Winter CMS**. Based on [Identity-Theme](https://github.com/SaifurRahmanMohsin/Identity-Theme). 
 
 ## Installation
 
