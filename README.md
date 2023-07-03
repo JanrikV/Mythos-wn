@@ -1,7 +1,7 @@
 ![Mythos Winter CMS](https://raw.githubusercontent.com/JanrikV/Mythos-wn/master/assets/images/mythos.png)
 
 
-# [Mythos](https://github.com/JanrikV/Mythos-wn) #
+# Mythos
 
 Theme for Winter CMS. Based on [Identity-Theme](https://github.com/SaifurRahmanMohsin/Identity-Theme). 
 
