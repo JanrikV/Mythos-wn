@@ -2,34 +2,16 @@ title = "Home"
 url = "/"
 layout = "default"
 is_hidden = 0
-==
-
-<?php
-
-function onInit() {
-
-    $user = \BackendAuth::getUser();
-    $profilePhoto = '';
-    
-    if ( $user && $user -> avatar ) {
-         $profilePhoto = $user -> avatar;
-    }
-
-    $this['profilePhoto'] = $profilePhoto;
-}
-
-?>
 
 ==
+
 <section id="main">
     <header> 
         <span class="profile-picture">
-            {% if this.theme.profile_picture == 'facebook' %}
-    	    <img width="122" height="122" src="//graph.facebook.com/{{ this.theme.facebook_id }}/picture?width=122" alt="" />
-            {% elseif this.profile_picture == 'octobercms' and profilePhoto != '' %}
-	        <img width="122" height="122" src="{{ profilePhoto.getThumb(122, 122, 'crop') }}" alt="" />
+            {% if this.theme.profile_picture != '' %}
+	        <img width="122" height="122" src="{{ this.theme.profile_picture.getThumb(122, 122, 'crop') }}" alt="{{ this.theme.profile_picture_alt }}" />
             {% else %}
-	        <img width="122" height="122" src="{{ 'assets/images/profile.png'|theme }}" alt="" />
+	        <img width="122" height="122" src="{{ 'assets/images/profile.png'|theme }}" alt="{{ this.theme.profile_picture_alt }}" />
             {% endif %}
         </span>
         
@@ -41,7 +23,7 @@ function onInit() {
 
     </header>
     
-    {% partial 'social' %}
-    {% partial 'contact' %}
+    {% partial 'tmpl/social' %}
+    {% partial 'tmpl/contact' %}
 
 </section>

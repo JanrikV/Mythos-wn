@@ -1,5 +1,5 @@
 name: Mythos
-description: 'Mythos theme - Based on Identity-Theme by Saifur Rahman Mohsin'
+description: 'Mythos theme'
 author: 'Janrik Viljanen'
 homepage: 'https://janrikv.fi'
 code: mythos
@@ -13,26 +13,24 @@ form:
       default: Mythos
 
     profile_picture:
-        label: Photo Source
-        type: dropdown
-        span: left
-        commentAbove: The source of your profile picture
-        options:
-            custom: Custom - Shows profile.png in assets/img folder
-            facebook: Facebook - Facebook profile photo
-            octobercms: OctoberCMS - Shows your OctoberCMS profile photo
+           label: Upload profile picture
+           comment: 
+           type: fileupload
+           mode: image
+           imageHeight: 122
+           imageWidth: 122
+           filetypes: png
+           thumbOptions:
+               mode: crop
+               quality: 100
+               extension: auto
 
-    facebook_id:
-        label: Facebook profile ID
+    profile_picture_alt:
+        label: Alternative text for profile picture
         span: right
-        commentAbove: You can get your Facebook ID using https://lookup-id.com
-        trigger:
-            action: show
-            field: profile_picture
-            condition: value[facebook]
-    
+
     my_name:
-        label: My name
+        label: Name
         span: left
         commentAbove: Your name will appear below the profile picture on the site.
         default: John Doe
@@ -49,3 +47,23 @@ form:
     email:
         label: Email
         span: right
+
+    twitter:
+        label: Twitter
+        span: left
+
+    linkedin:
+        label: LinkedIn
+        span: right
+
+    facebook:
+        label: Facebook
+        span: left
+
+    github:
+        label: Github
+        span: right
+
+    ga_id:
+        label: 'Google Analytics ID'
+        span: left
