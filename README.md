@@ -28,7 +28,8 @@ mv Mythos-wn-master mythos && cd $_
 - [Beautiful shot of high white hilltops and mountains covered in fog](https://www.freepik.com/free-photo/beautiful-shot-high-white-hilltops-mountains-covered-fog_7629796.htm) by wirestock
 
 
-## Theme Preview
+## Theme Preview - [Demo](https://demo.janrikv.fi)
+
 
 
 ![Theme Preview](https://raw.githubusercontent.com/JanrikV/Mythos-wn/master/assets/images/theme-preview.png)
