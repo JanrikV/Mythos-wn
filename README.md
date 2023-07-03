@@ -1,4 +1,4 @@
-![Mythos Winter CMS](https://raw.githubusercontent.com/JanrikV/Mythos-wn/master/assets/images/mythos.png)
+![Mythos Winter CMS](https://raw.githubusercontent.com/JanrikV/Mythos-wn/main/assets/images/mythos.png)
 
 
 # Mythos
