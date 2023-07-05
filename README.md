@@ -1,4 +1,4 @@
-![Mythos Winter CMS](https://raw.githubusercontent.com/JanrikV/Mythos-wn/master/assets/images/mythos.png)
+![Mythos Winter CMS](https://raw.githubusercontent.com/JanrikV/wn-mythos-theme/master/assets/images/mythos.png)
 
 # Mythos
 
@@ -11,10 +11,10 @@ Example of usage: Portfolio landing page.
 
 ```
 [ -f artisan ] && cd themes
-wget https://github.com/JanrikV/Mythos-wn/archive/master.zip
+wget https://github.com/JanrikV/wn-mythos-theme/archive/master.zip
 [ -f master ] && unzip master || unzip master.zip
 rm $_
-mv Mythos-wn-master mythos && cd $_
+mv wn-mythos-theme-master mythos && cd $_
 ```
 
 
@@ -32,4 +32,4 @@ mv Mythos-wn-master mythos && cd $_
 
 
 
-![Theme Preview](https://raw.githubusercontent.com/JanrikV/Mythos-wn/master/assets/images/theme-preview.png)
+![Theme Preview](https://raw.githubusercontent.com/JanrikV/wn-mythos-theme/master/assets/images/theme-preview.png)
