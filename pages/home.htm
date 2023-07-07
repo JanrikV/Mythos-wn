@@ -2,7 +2,6 @@ title = "Home"
 url = "/"
 layout = "default"
 is_hidden = 0
-
 ==
 
 <section id="main">
@@ -11,7 +10,7 @@ is_hidden = 0
             {% if this.theme.profile_picture != '' %}
 	        <img width="122" height="122" src="{{ this.theme.profile_picture.getThumb(122, 122, 'crop') }}" alt="{{ this.theme.profile_picture_alt }}" />
             {% else %}
-	        <img width="122" height="122" src="{{ 'assets/images/profile.png'|theme }}" alt="{{ this.theme.profile_picture_alt }}" />
+	        <img width="122" height="122" src="{{ 'assets/images/profile.png' | theme }}" alt="{{ this.theme.profile_picture_alt }}" />
             {% endif %}
         </span>
         
