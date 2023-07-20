@@ -2,7 +2,7 @@
 
 # Mythos - Landing Page
 
-Theme for **[Winter CMS](https://wintercms.com/)**.
+Landing Page Theme for **[Winter CMS](https://wintercms.com/)**.
 
 
 Example of usage: Portfolio landing page.
