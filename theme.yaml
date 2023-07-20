@@ -2,7 +2,7 @@ name: Mythos Landing
 description: 'Mythos landing page theme'
 author: 'Janrik Viljanen'
 homepage: 'https://janrikv.fi'
-code: mythos
+code: mythos-landing-page
 require:
     - Winter.Translate
     - Winter.Pages
