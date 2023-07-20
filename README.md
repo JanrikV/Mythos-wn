@@ -11,10 +11,10 @@ Example of usage: Portfolio landing page.
 
 ```
 [ -f artisan ] && cd themes
-wget https://github.com/JanrikV/wn-mythos-theme/archive/master.zip
+wget https://github.com/JanrikV/wn-mythos-landing-theme/archive/master.zip
 [ -f master ] && unzip master || unzip master.zip
 rm $_
-mv wn-mythos-theme-master mythos && cd $_
+mv wn-mythos-landing-theme-master mythos-landing-page && cd $_
 ```
 
 
