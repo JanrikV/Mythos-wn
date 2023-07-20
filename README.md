@@ -1,6 +1,6 @@
 ![Mythos Winter CMS](https://raw.githubusercontent.com/JanrikV/wn-mythos-theme/master/assets/images/mythos.png)
 
-# Mythos
+# Mythos - Landing Page
 
 Theme for **[Winter CMS](https://wintercms.com/)**.
 
