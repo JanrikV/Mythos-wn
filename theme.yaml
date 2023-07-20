@@ -12,7 +12,7 @@ form:
     site_name:
       label: Site name
       commentAbove: The name of your site
-      default: Mythos
+      default: Mythos theme
 
     profile_picture:
            label: Upload profile picture
