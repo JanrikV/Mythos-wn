@@ -1,4 +1,4 @@
-![Mythos Winter CMS](https://raw.githubusercontent.com/JanrikV/wn-mythos-theme/master/assets/images/mythos.png)
+![Mythos Winter CMS](https://raw.githubusercontent.com/JanrikV/wn-mythos-landing-theme/master/assets/images/mythos.png)
 
 # Mythos - Landing Page
 
